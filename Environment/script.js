@@ -7,8 +7,9 @@ document.addEventListener("DOMContentLoaded", () => {
     // Fetch data asynchronously
     async function fetchData() {
         try {
-            const response = await fetch("http://localhost:3000/Information");
-            environmentalFacts = await response.json();
+            const response = await fetch("http://localhost:3000/Information"); // JSON Server serves an array directly
+            const data = await response.json();
+            environmentalFacts = data; // No need for `.Information`
             populateCategories();
             displayFacts(environmentalFacts);
         } catch (error) {
@@ -26,12 +27,12 @@ document.addEventListener("DOMContentLoaded", () => {
     function displayFacts(facts) {
         factsContainer.innerHTML = facts.map(fact => `
             <div class="fact-card">
-                <img src="${fact.image}" alt="${fact.category}" class="fact-image">
+                <img src="${fact.image || 'default-image.jpg'}" alt="${fact.category}" class="fact-image">
                 <h3>${fact.category}</h3>
                 <ul>
-                    ${fact.facts.map(f => `<li>${f.fact} ${f.source ? `<a href="${f.source}" target="_blank">(Source)</a>` : ""}</li>`).join("")}
+                    ${fact.facts.map(f => `<li>${f.fact || "No fact available"} ${f.source ? `<a href="${f.source}" target="_blank">(Source)</a>` : ""}</li>`).join("")}
                 </ul>
-                <button class="like-btn">&#x1F44D; <span class="like-count">0</span></button>
+                <button class="like-btn" data-category="${fact.category}">&#x1F44D; <span class="like-count">0</span></button>
             </div>
         `).join("");
     }
@@ -48,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.body.classList.toggle("dark-mode");
     });
 
-    // Like button functionality
+    // Like button functionality (Event Delegation)
     factsContainer.addEventListener("click", (event) => {
         if (event.target.classList.contains("like-btn")) {
             const likeCount = event.target.querySelector(".like-count");
