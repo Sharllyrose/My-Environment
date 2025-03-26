@@ -1,41 +1,60 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const filterButton = document.getElementById("sustainable-filter");
-    const ecoBar = document.getElementById("eco-bar");
-    let filterActive = false;
+    const factsContainer = document.getElementById("factsContainer");
+    const categoryFilter = document.getElementById("categoryFilter");
+    const darkModeToggle = document.getElementById("darkModeToggle");
+    let environmentalFacts = [];
 
-    const ecoPractices = [
-        "Use reusable bags instead of plastic.",
-        "Reduce water waste by turning off taps when not in use.",
-        "Compost food scraps to reduce landfill waste.",
-        "Use energy-efficient LED bulbs.",
-        "Walk, bike, or use public transport when possible.",
-        "Support brands that prioritize sustainability.",
-        "Plant more trees and support reforestation programs.",
-        "Reduce, Reuse, Recycle!"
-    ];
-
-    function displayPractices() {
-        ecoBar.innerHTML = "";
-        const filteredPractices = filterActive ? ecoPractices.slice(0, 4) : ecoPractices;
-        
-        filteredPractices.forEach(practice => {
-            const practiceDiv = document.createElement("div");
-            practiceDiv.className = "eco-practice";
-            practiceDiv.textContent = practice;
-            practiceDiv.style.backgroundColor = "#2e8b57";
-            practiceDiv.style.color = "white";
-            practiceDiv.style.padding = "10px";
-            practiceDiv.style.margin = "5px";
-            practiceDiv.style.borderRadius = "5px";
-            ecoBar.appendChild(practiceDiv);
-        });
+    // Fetch data asynchronously
+    async function fetchData() {
+        try {
+            const response = await fetch("http://localhost:3000/Information");
+            environmentalFacts = await response.json();
+            populateCategories();
+            displayFacts(environmentalFacts);
+        } catch (error) {
+            console.error("Error fetching data:", error);
+        }
     }
 
-    filterButton.addEventListener("click", () => {
-        filterActive = !filterActive;
-        filterButton.textContent = `Filter Sustainable Practices: ${filterActive ? "ON" : "OFF"}`;
-        displayPractices();
+    // Populate category dropdown
+    function populateCategories() {
+        const categories = ["All", ...new Set(environmentalFacts.map(fact => fact.category))];
+        categoryFilter.innerHTML = categories.map(category => `<option value="${category}">${category}</option>`).join("");
+    }
+
+    // Display facts dynamically
+    function displayFacts(facts) {
+        factsContainer.innerHTML = facts.map(fact => `
+            <div class="fact-card">
+                <img src="${fact.image}" alt="${fact.category}" class="fact-image">
+                <h3>${fact.category}</h3>
+                <ul>
+                    ${fact.facts.map(f => `<li>${f.fact} ${f.source ? `<a href="${f.source}" target="_blank">(Source)</a>` : ""}</li>`).join("")}
+                </ul>
+                <button class="like-btn">&#x1F44D; <span class="like-count">0</span></button>
+            </div>
+        `).join("");
+    }
+
+    // Filter facts by category
+    categoryFilter.addEventListener("change", () => {
+        const selectedCategory = categoryFilter.value;
+        const filteredFacts = selectedCategory === "All" ? environmentalFacts : environmentalFacts.filter(fact => fact.category === selectedCategory);
+        displayFacts(filteredFacts);
     });
 
-    displayPractices();
+    // Dark mode toggle
+    darkModeToggle.addEventListener("click", () => {
+        document.body.classList.toggle("dark-mode");
+    });
+
+    // Like button functionality
+    factsContainer.addEventListener("click", (event) => {
+        if (event.target.classList.contains("like-btn")) {
+            const likeCount = event.target.querySelector(".like-count");
+            likeCount.textContent = parseInt(likeCount.textContent) + 1;
+        }
+    });
+
+    fetchData();
 });
