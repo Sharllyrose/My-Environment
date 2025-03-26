@@ -1,0 +1,95 @@
+
+{
+    "Informatin":
+[
+    {
+      "category": "Pollution",
+      "image": "https://cdn.pixabay.com/photo/2017/09/04/18/39/pollution-2711580_960_720.jpg",
+      "facts": [
+        {
+          "fact": "Plastic pollution is significantly altering Earth’s systems, exacerbating climate change, biodiversity loss, ocean acidification, and the usage of freshwater and land.",
+          "source": "https://www.theguardian.com/environment/2024/nov/07/plastic-pollution-is-changing-entire-earth-system-scientists-find"
+        },
+        {
+          "fact": "Approximately 8 million tons of plastic waste enter the oceans annually, posing severe threats to marine life."
+        }
+      ]
+    },
+    {
+      "category": "Recycling",
+      "image": "https://cdn.pixabay.com/photo/2016/11/19/14/00/recycle-1837325_960_720.jpg",
+      "facts": [
+        {
+          "fact": "Recycling one ton of paper can save 17 mature trees and 7,000 gallons of water."
+        },
+        {
+          "fact": "Recycling aluminum saves 95% of the energy required to produce it from raw materials."
+        }
+      ]
+    },
+    {
+      "category": "Conservation",
+      "image": "https://cdn.pixabay.com/photo/2016/11/18/17/19/elephant-1834781_960_720.jpg",
+      "facts": [
+        {
+          "fact": "Deforestation accounts for approximately 15% of global greenhouse gas emissions."
+        },
+        {
+          "fact": "Protecting and restoring forests can provide over one-third of the total CO2 reductions needed by 2030 to keep global warming below 2°C."
+        }
+      ]
+    },
+    {
+      "category": "Climate Change",
+      "image": "https://cdn.pixabay.com/photo/2019/11/01/20/15/climate-change-4594766_960_720.jpg",
+      "facts": [
+        {
+          "fact": "Climate change, habitat destruction, and pollution are top threats to biodiversity, risking the loss of numerous species.",
+          "source": "https://climatechange.gov.ng/climate-change-habitat-destruction-and-pollution-top-threats-to-biodiversity/"
+        },
+        {
+          "fact": "Kenya is highly vulnerable to the impacts of climate change, which manifest as irregular rainfall patterns, prolonged droughts, and increased frequency of extreme weather events."
+        }
+      ]
+    },
+    {
+      "category": "Renewable Energy",
+      "image": "https://cdn.pixabay.com/photo/2017/03/27/13/36/windmill-2178458_960_720.jpg",
+      "facts": [
+        {
+          "fact": "Kenya is internationally recognized for its significant investment in geothermal power generation, with the Olkaria Geothermal Power Station being one of the largest in the world.",
+          "source": "https://learnaboutkenya.com/how-did-kenya-deal-with-environmental-and-conservation-issues/"
+        },
+        {
+          "fact": "Kenya’s windy corridors have made wind power an attractive option for renewable energy, with projects like the Lake Turkana Wind Power contributing significantly to the energy mix."
+        }
+      ]
+    },
+    {
+      "category": "Water Conservation",
+      "image": "https://cdn.pixabay.com/photo/2016/08/10/15/01/drop-of-water-1580279_960_720.jpg",
+      "facts": [
+        {
+          "fact": "Water scarcity is a pressing issue in many parts of Kenya, exacerbated by overexploitation of resources, pollution, and climate change.",
+          "source": "https://aspectsofeverydaylife.wordpress.com/2024/06/22/environmental-issues-in-kenya-challenges-and-sustainable-solutions/"
+        },
+        {
+          "fact": "Improving waste management systems and promoting recycling are essential to tackling plastic pollution, which often contaminates water sources."
+        }
+      ]
+    },
+    {
+      "category": "Biodiversity & Wildlife",
+      "image": "https://cdn.pixabay.com/photo/2016/11/18/17/19/elephant-1834781_960_720.jpg",
+      "facts": [
+        {
+          "fact": "A recent study found that almost a quarter of key freshwater animal species are at risk of extinction due to human activities such as pollution and habitat destruction.",
+          "source": "https://www.ft.com/content/2de7e5de-b677-441f-b91c-97014e940684"
+        },
+        {
+          "fact": "Kenya’s rich biodiversity is under threat from habitat destruction, poaching, and invasive species, affecting iconic wildlife such as elephants, rhinos, and lions."
+        }
+      ]
+    }
+  ]
+}
