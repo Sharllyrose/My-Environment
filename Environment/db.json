@@ -1,95 +1,94 @@
-
 {
-    "Information":
+  "Information":
 [
-    {
-      "category": "Pollution",
-      "image": "https://cdn.pixabay.com/photo/2017/09/04/18/39/pollution-2711580_960_720.jpg",
-      "facts": [
-        {
-          "fact": "Plastic pollution is significantly altering Earth’s systems, exacerbating climate change, biodiversity loss, ocean acidification, and the usage of freshwater and land.",
-          "source": "https://www.theguardian.com/environment/2024/nov/07/plastic-pollution-is-changing-entire-earth-system-scientists-find"
-        },
-        {
-          "fact": "Approximately 8 million tons of plastic waste enter the oceans annually, posing severe threats to marine life."
-        }
-      ]
-    },
-    {
-      "category": "Recycling",
-      "image": "https://cdn.pixabay.com/photo/2016/11/19/14/00/recycle-1837325_960_720.jpg",
-      "facts": [
-        {
-          "fact": "Recycling one ton of paper can save 17 mature trees and 7,000 gallons of water."
-        },
-        {
-          "fact": "Recycling aluminum saves 95% of the energy required to produce it from raw materials."
-        }
-      ]
-    },
-    {
-      "category": "Conservation",
-      "image": "https://cdn.pixabay.com/photo/2016/11/18/17/19/elephant-1834781_960_720.jpg",
-      "facts": [
-        {
-          "fact": "Deforestation accounts for approximately 15% of global greenhouse gas emissions."
-        },
-        {
-          "fact": "Protecting and restoring forests can provide over one-third of the total CO2 reductions needed by 2030 to keep global warming below 2°C."
-        }
-      ]
-    },
-    {
-      "category": "Climate Change",
-      "image": "data:image/webp;base64,UklGRkQcAABXRUJQVlA4IDgcAABwbQCdASriAJoAPu1cok2ppKKiMNtcCTAdiWIAyYCrmty6uW/LAFd2M+Unz/wPvT/Q/tvg2Ym+0vUgt7dk/8BmPfZ8RpNrlBs0n8x/4emU7/H79/4v3v4mP7xew60qvTVQGi7jLy7rgbUpZ3q3N9uwdNnx1clOgL4C7Xx84fMBQaf53G9aLFOnC011PtCHJwFstykjm6Tj2V/0X+dxodQcMKqv93Y6WTvMXjOLmdt3rPRNTezuEqKSkql9iv5s2nojI46EQTcP7v+o9XO0ATZ58OKfDzIDSuR6rJ7xr2B3iUiU+9d+q3+fdtn29cXSmAgkCAwOBxtXHn4RfQIAc8Rjc24KdH6eaHxTRjcdcRM8wF3qK4fJP6aLDrhq7x0T6mtAFNfC4Zu3YnI8J10RedKTLYicHcqYa3Wf5uEh5vwY6ErAH+8IjTp5XldtgIeTAocIxMobfWUdrp6Gji7Q8erZSIx69gg62zSL4OmcDYvDRxWvy9jxKGUOzUu1gpZ8N6iAvZvROML6Db19T9afqoF9RuUJPlX6GOaYlYihoigdHZJPJO89Cw5YIzrk/9RNUqmMiCSQIEcG/iXwLWsE95EP4uMfPSJdmWAYQA7Hm9Ke4MY6GGHRB9FwlVQJ4W5c3V4k/TiDpa7r8F+Em4hrtPWpCl3cFZK4xhXCs/tBuz+P8B7F/roConIxXlmxcUaJQd7q2gB9VY536oc2zK+8XsXHqPa+D5GDihZcL5f67pas/ivaZOrzs7sPbZ2g6Dixl1h7f83I4FfF0qNq70f4/q7P6abGHtPq6Ibiw9Kf/ss4Xo5J5iIbhjvRE6LgVflOQKspGYlc6lcSFkK48wbaRAiKUe6xx7dNm0bbPbbzCIrWUuVf83UDht3IA0EADSGV81SydQXOfSbUu+qfX0RRQAbOBUdBLYmSQY5IpKKjYlblTewvXG4k01taWK6tOu0X4Zxcyidd3BrHeRZFXlxP3eivzBfH+FBpPhE+IoXD+Py0Y/5AdOL4flZX9urSHQBe3jXNw/4d+4HBNqveuPCbdWXAW3mrAclOgbMmNJcZeqg3vCcRD2ScDwMyC0f7oiIThsaUAwf9kO4ahVDgsJLZ1rP614y397ZdfroorC3ETEJubPuYa2F62XHBCtMHdjVt3ZGahWVFN+t22dhf7uFQUqO1fsU1AAD+ikeylRvvcCAPtR7mRlLSqC2K+fHQNK5TezcwAc84Q9iMGHrbWEpaeQHgouuVV8Ab7gbB7JUkSDpbNqNJ0GAb79y7VVsQ0miiIrsbkqmT41L42oTkiMul8nMes6N1v6ZaEnTpprCNorOfbFs01eXOcnMkAbyJIHbSz4IfQSDXJSMWp1ii83aUtgWUM8Jvihuao7H1sVBUH1RiBnsSU+OcTHlmgcIbnpcSx2xp/5rmP/75uzwrm9d1e5xf/vmVOni2zUsoaRU4fdFZRVwB8L3vSxb/tNxbyvJPpYpbp2zulDG0SyF+UBAMscAVEQwWfnyenTU1wy3bI8ZjT5sRhmNqa4fryiL8OvxQ2twBwwbVs0SmRrTlNV3MIY2F/5QTJTEs3GiW28Pog0WnN/5u+w4LUoqM40sfkKu9jCsyyQLyQQZ5I0rmDd1LLIX9oKdJkNb8TiDDrTbfz4SWF1Fp6tY0z1iI/RTG7rEiYyzmWs5Ao3kOn4pI87Msgkh6jQPdNS4BB+qzHpCreA7Fl+NbhMNKeCcpXawiDk0fdg+5tpVw9lEDWHvHAVo77eaMIC8LByRThcZ8YB4orKXNRbuwtRoE++xZPL6zLk4xw3SB4yf203bGiM7wTgosGtkzDWby3n4x1rKjVVmyR0/hdGrOOirQO/FTW7TYhwy/ogdKbqp2kXNn22aqREcAK+Ghu4/hHDeEekHYZKxYij68u1W66g9PDrhBvMYEPG7XaOhEWGXR8bCtjLSe5A5KyKpQUYM5FqNbGnuQgnMpQrJpPpf+NdVq94deZw0yiXk2vUKhqYos83gB7Y2Z5gCp989t1gTEc0SFA6TVaEHt7IVYT9tkpmxoa12yZKejDH9F5A7A1PtacwoHTDZDwPkXSq0mmSDltTQ0gUyOogSaMsxMn/dvfRBUmy+GRcyJrrkb/j0SdcNv2huLzBE+BgOi9ZK6HmC/TvR2UIzf3QQEq6yXWNvka8MXIaupfQ5K7VK+Y//jpj5zL8tHmBUzJT1AQr3gtv6yAmcA1NZNC46itfEwlsH8MMFMsYkvbF5eT4HSrh/kvU3niyDvyDJvGqSksdxSasQr7cq5I0egz+QLraOiMvnaX7CohWfHcDSDAej8q2340uTg4grqHK7e+5uBCY4TVaVNUpHhOnAqLEEcFJoSUNvj7RqhZYU1ojsCdXNQ4JMKUtqX/OtLPb1f3KObtGygjSbnd/9gq3qovol+r1ZZQdpZshibnP0iJcM8RcTzKiLyBSkohyeGsdTZsQL2ozvlg9qzK/bsnj3erNkCo3mzPvmn/WdcgNHsto7Z1VIZkakNhNjaH6nq8gBVbQRXheCbRo9ydOpO54x/S1MnI8VsQKo1QcK+yEKGCH5oPRRX/3fXj4IOOQnrhxirKyUq5TAn4rBPO7mkeYCrCkKq8Jks7MCXWtbZRAwgmMOmlHTJhU4NhViepPXtlyUNYy4IB09C3a13qKWfovSFxeFlH6zIsRG+rrJ5+t5Twf7MVncMvN6Y9+JHfFBJNBE+Zos1bEXiCtGwmSdyp0BFhQCxAcCpz/nhotStfVfzFhEWzTSuL1fFoBfrbe36pbU8GxV1DQmabVdmvYj2JBWmSmKahfW15n0Xud1ZD1DOy99eNDCHiDUXHMjdRqqgy2o4VfuymBq3Nj81af+w6TacqQaIGRtCoMBbhQscbE/tMGpKcTdlxuYPE5VMOZRzZdD6mBGgTaWMLueSpicRgZVNuU4fiwKEI//scuQXQmtrDAJUsDThpiSRF6cC3eXGSpQH+2UkiGAEy7kWDEQ21e6dei8+oqmpd7exvjMzCeDo+3m9Y3JVwDIdAbLZm6cGvvba9PNGMy8pr+QWnqNoNvRhV+lVPiJxnpk2XY7JmQmkS/HmUlgTIAi28Eq2neYptiM/nBiBjDzwqq3UZxRdWU7xipsxF3/iB42KkLNpwVxb6kCb0I7zd8KtLiN3kvQznSt//sNG5jZ+2nK1mgiANrllO0Zb8mRRkIcsrsBpcqL+oiLU559C4CVHBjEkPf5Z1PTxueTzvsb3/Dj8vMXM2PhTyJ0qI5lEQiookpzfsUVi67486Z3DgREb6HGfwU6m0OkvwwzWgV/wvBFWb/QGkwRSDnkGpGVmZf01be1Sw2JeWbp2uqWvqRIbhogYG4XQ3NyaiMLKwh3PiXleWEn4RHPSNK+K5kVnBS9Tq0j+WTmw2q5d1SLu0W1mupmPQIyhaA1AX1qV4GB1344xOIqO5kyZ+22fFdxNsvwFFQvCEytXL3J73YEpDqSkBzq3CMet0BB7aNgOAanhRu75IPdfbcpJQRxYmaZPHRULITuPRnzGfZvgW1mCjQAGEUOU6SNNsTNCOa4QzWP2Qu9OA5oNONRQgI+0ygWJ5wHkRNqTzy1PM+PXbUe6S1gnz7m9WvyK8WRlwwXZGVtRA4Wdm4FO31J4pbNapc/67zk8i5jEXKaGMlSY0a6Gdu2VqrXoP1U3zTzh7IbKuUFtcwDYP4tQFxkHmtn1zAnBBYy6HTsxEIbEYu+QF3HOPh+vTGv0VwxD6ZR+NaoLQ67BIuKuUc8tD29ZC4sde7oJnruEAxcbS2vB6Y3/NbdnRsFyHQajxOCw+aX7mPVxR/uOtHFePRhYmp7NxK2YjEz7+DZrMBaQSN5loUTdkVKKwwJsF2OF8YdHbh24dLCCq7sPzbtLeP/mE+5AmGlAGTdURLNy/RIbZe0Oentcnwmk8JiQ8GM9mSwB13l5bgjr2U6ubUrDbM4R3ZzGsCZGao5Q87tjRl5nu6g/113KKBPfTBz/skd7ixFNoF8sbtVFKIVe1Nl1TBh4uWCGFXjDqCzdabZ0HK/nJi5aruCucTeC7dO6LwtTw9ney7qJgfriZBwVdg8DAEDOJEvlg7ecP+gsvF2uL/Hu5MVx0myAaBU+BrTcmrvoHmvxIQ7j7Tr/ORxe6hRQcx80p27F9o2qz/F95EWeLb5ozim8HjqxfuNptd296XdCmwc79p3vuVq2QEvPAxNnPBx7Vfq7C8wwIx7zI30KR6Nw3c7whGzp+KJJZS0RkwSnZw4pfxuerSIXnJjimOB1mDRUsigmrvXMLyyJdJEYsISx6EwDJjox1JMRj24Fro3p9oRcFexV1ty76BznkxC7TICpm7CmYT35aRGbS2ibA7RRAD1fCUhSsYE3I9scwuLuZ6CqW/lEQyx9ZCC2eGrbShgkPsSxf3Qe1ZFshFTREuvhiCh9ZPbyq/Af2aD9uFUk53Se2Tjynf/o5ukbI1mgyMbtaa7dtKLuJS98awC71st/5HhLhWq3ikQo+qD/SpEQaf73FQXSUzcgPVtSKFXeugn9sA8wKNxUZtX8h3PcVJFnGhmRQ6ZZlH7FB5yx8Ij46Avcw7vyKiCvEJt60E44ZrM2+1IbhDD2Z8KttCcqG3vSjaTvgU7FBFF/hxNMk8oKlJnImKeDGLUl+f7akWH0aRcqUAp7UUU12BWZBCr+3yXNbA+qZXAqktAr6jqKNXK9OSyVRHSxEqsq8pKe9atJRJW8tiA1nnKRRldFWp5HdoN673DR3keoBgBpoJAn899ije8itZIbLhk6E1HPFByC06gdm4EQoANcFCRsL/PC1ekK/ELWV/EwvZQY+YTP3dgilnxu3U8Mwui9WKEK+sD1sxqQOyqQs7np3BWZ+TetzIYr1s8TRhQKWmQ3o7OLx+Gt0SttQj9KlWNCfGWZ2wveGLdizNMdaQtOvg0NvDudzxsHaqS+VCRUxwlvIktZikQecMlvh6zD8Qzq5GGFrOOfr4vgl5Q4OvnpDVKX8wdND5sodX2ro2xXZUOc981LsfBNA//M1F49XfJLnv/a6C551XHCRRAzkXCbFge8GEC7tUlX7JFNFoBGp2ygOoWM6g0ru+uaz8YfnmCK6nkSqEXD9JNDxHPv7W95wcXN7U7fTQ31LlxY/gx6akdE5XMRDr74R/uqWMJ7x0Sc7E1Gfh+Tfc36gxLwkEsnw4rJ/wVBca2MnRabeTA9/SsOZFjffztl1Y3tGaUCdM6a+BNFeg61e/xGpPb1mCLNHRE8LV47PdQobNp9pKzQ2asFoAzvdti9UOOD/ifB9FkjZIKxAzZfMVMArxraFVyrrPhoiHqMPQhjkjGZVZHMD+7J+2p2JFfioeDX8J/go7mDN6lUanh40vrGNEx0Ps0zDlI+vULCDX2iSR6xSEEk8zwfAzq/2Meu8zFcM4bmqvsBC1wsOfU2J21QQh40+g0etEb9TTin1zsbHqexFiL9rA1PX1sB5CL/JerIE/faOwanAT25IaOrQavbSfQV5WqFiNAJN8uF8Mx6xwYd28CmNT9bK8GDKViYIqdufv4e5tdwcTl5VCAHdcFBa4vvtzwzfoTQYJ1WJFwtTXOb14Lo71BTmTFeZchBjgK+Yldl9zzaiBvyMaXcJNi+VSIhas+wUeWdzlyqpsdhWU95JNtL6/B2EOev4UnX4hsbDA1tXlcFVH3BewwbnbWxTCVKHAmX7p2MT1pn8b8/joq1cVl8Jq6IWMZoAF1MXtwrMqMolkhQf4pErqRr/2Q4AMRqs4JkXU9jwsdMmuzckTgZj3ae6dVYf5vUiPN1rGyFLUlI7TrRIJneWHWxO+2jFhgaiF72fRiDrOTzZANbSzKWnv6g/fbVTaswj0LQyZ9r893sXtRDLMtdzYIBNXdbMVhgqt1kJCU0CzljeXTcwPo0RLLDxs5nq58QtkR8id19TeNJSTc7fg0wYvPyO7L/QaJCaJ4DXoA4DY4b7N9llfMVt7P1mt3HWNhOo0eYwxP7+CnfgrgdjJcVOr87VjQP2MAVuGR1J9goyfU9yh6gxs7kHXnIZiCP7+vYETcEPdTb/spDSatAKDjFuXTgSAaLELAQG6icNvt4hYBx5QUR0gniZuFfi3QbBN2HZPtgmUU+865ezAYkAqIdQ8FPlamQT/eXDRXHX++4OIc3K2G4n3TjEcWb7YUZ+TeZ8nnRkynQvj0xxFzSEwW2Ir1tWjBSxX+OA6SehW/ol8X3imdqr2ci8d/OgPLfKIp2XmdgV8u96axM8CMnDhvRUuHfeZaFOENNFy68zbkFyeCQhTRHNUsPYl/sra7h8XG9gheeFZ3/bHCvHxrVgtXjXY9Ve3S+qqSoJigvUkZgnwAl60w0zmU4lVjt9QIcJc5O9mi9fWzIP86/+qcHtU5MqldmXhomNIf/ifkYJ4bPO3UI8cPRmFdAXTpiPtw/kmg9IiPl7WrRuy+b9uNSExO8n3U9RROVDsN2V/fczyuw79XZG1eTUDG6pO0Ax5QssyFhKqVGXrBt8sefpsUxTX5q9tL/zgYcLo1W9Sb5V1Cwmm/5PjxPsIKKg8mmqVjoMqi5UCToMGr5URSlw79vGQQwRDy0muwkEztyLAlcBIinTz/XTjvpBjnEK28VN975P8JF6hcDxpSdTP1l8l5jHVFNj4MJd5q6rB27IlzU4X6lzVjktRzu34ODpyu9Bg5uzo7wM5LNiHBpdAAiqksZVCrQFle4HAEMGDx4+CNup1rCvLnYPjWYadBF2azBhyNxvokb1Ds48vaMHb71XyQHDTZ6d2kd00ylVd+ftmELkCp5kePt9jtVPAuKqb2ITuJUxl+xv/yuHZHtBMu1sjsLPtAPeymoteQoUdA1H55EVphBGC2g7FLMKxPsUcqA4S2WvufY7/IcaHlP3HABM97/NOmSCiIA1WHPkQxclta4wyABfuEh+GG6gvgh78A/KcQ69NgE71CC12qXXXnFbytTEE6DK08De8ogH7ZC8dytH6eSp7bqvJkVuhPp4PiUpEz/8bAkLUgKV3xGP2X4AIdlJxW8yjwViYDR/OWeatTc1I0gwtGmA7X6FUAh8HubiLIlCiUr95bCVOq+93W2tbjCVPmb5gQBncR1XRIRhRJpHqJcgrrDvD4NcDUrqHbFpWEc39gvj3faokgn9UkFbSrjAjl7KREA4jotJabnBPCXhPNaFuBTU7ID9dNMcbH5DD8a7HOwA+CEhs87poK8gBUDJ6P/KVOl8LIBAGUJTIHfAihJvlNveNmjrYCtJR/mCAIlUxHv66Ks8CAxTgHPE1tv87+q+Ha8yaU5ZDF8a/dEF0FfSjdW6D2mzJyiSJn3AvtugRBG+GAu4TrCIcVFnnVqyNS6AEd8Ml6Qe4zRRD36YtmRzLdXO0eWOhDQUCgYh9zBn0Gci0mAzOosiF7YvNxrQKFnzzOvZbs7EE4yEahnp5bsRvTnLX37BpXfwlSAJe2rK349JfvofLVVRsvn3wu1Sh9l/DzmVqNl6Cj2uIWUrhWHNTLnMZhL4TrixFW7GjxWA1gMW9+4S43Qp+ll5/t71e1hQzyvkUXWfQOxbRnFbW1C/AeXe81zi+UPrhGIjK4U7Vkc9h1SiBdEJaZGLpjbzcg7tG/iZOosNYaiMjTsH3vzO9maxFCP/CyIh4l34bT1dTT7JoRlXA5QjqG6JeoryAQ4ABrSXhyq5fcu43uiIfZQr5D1aTjGJgvvs/Pu3QQhlghEth3cQck/Oow0MU+W44ZBPSvOwSkVuDUohydzrpka8EulSPYqnEQNIExxKrWy1ygfPmUXqaFsjCqLYDXR4S7lbV1zWjRR+bi2JZcLB3vsp2uQP4PvT1hoD5IVqogpBeIw/ubTmOYfkmwOH1taTNYgjk2zGaxbsaXp8ksYZUbxx+7PlV82e5JxjCv2NnVpJVsxKYA9LDlHcR21+ClNPXlaT1Lqw9BHAQb0pve1FF4Y4t2OVZIrRf4lIsfxDDDrGcX2UMklu4qo2hRr2vzip249GvbPdLgC1yAXEZMcm8m/aDRxiG7U0/J+4/W9MH2KC9WyLocFQuWqESmnQhHJUdcTGh2jaH/NyrkCBKXTAQw7rNk+U+YLdzdaUB2XMx57az0t5SY3+afU3gi5MCDAsrUED8bAfyFcpW68vAQxF1UPX8GBwTyYIJKUEaOUTHXDmI+dFz4XNXI8nr4JVxhsjZ6aA24xNspsEHQjMIkGaCO64xiS3ZRH0GKSEuD3nLE0ZbbbJBZGbyMo5BaCN/F4xuQPjvBZxRiftkXCHyDifhpa3iidUYpM94F/jxzLmPOcpX1Y4R0WhfDQZ7uAOe7EiCbbpP3W8XXR6asaDd0p/i0ICTuncH2jpz9CevsXR8Jrzwm7ZTjWfHfVMqQJhA/sbOgYhTpDPN/ej0UoC+JY3kC9BhS06yozBkHtWMvYjqaQktWAZgRqy92aX9eNgTL4UzKr1YhvtmPJ1SrYNH/0n/9t1gVZ2OR2k025jbj8r67a1DUqcsM0+g3849d8o2seTGDhmQg1cQ6K+vAIf8inPfYwrwGF5g/WQ/y+A3UM4xozkRKEM7o6y1QeR+MnCv2jVyWJ7TsMpQZ+lxF26qKk38hNmw7wl4nQEhYSjHlO4GrMmq7ut6wLe/cAVtvNOwA0BM1d9YlsKyG41ThNUZaNSaT+UjMTmawhIfYNKIgrleAp1JoSPNxyhB4xIezQ+DGCztjK/NRatnYlfCWYd5gqov3I3HYBIqMLWr05JOdbxTvR+jI1kMCtcRb5xRVJyOu7tBlDnvtdXYi77LnUdnLmo/Iq/XIpbN5cyWFf4FIhd0m8+/wd5pLGaxurYxRKxy8N1IczhWc+KuBcpicIrWHONg8pgM5QdZ49b72oMhvWqfe8wgG0UjdrdBmDVkYvjl/Dtb6adz/HhpQj1HgDMla6eFumTgsWZpJ6f01cIuSer9wr0cbrTHyDQwqBRQWiTY4ZA1Rfx0vInCeaz67NsdXTi10DC/HXZSc4DhZCarhiQ8EayRl/nreyQQ/ChvgMoj9+6jEOfklKSTt5OugQuoOQl2bSRzazAWEnLt6QP72FUsBtxo9OCzAfcqySeE7/dOlR2t1REgtQv9UZPAE2EibaUNNkVBzeDHv7Gejku0Kq1lbx6UOu159MZG05LtuzSA5KquB+Sd6lr85S3QqByhjZTR+bmd0Mh2qzzUaFBeJ68uzBvtAEMEEDx0020T8tsKVhKI70a6plLqR9gxhuPgFLgbd6Svld/fGY6sFrZU5/yBefoahF5zgljFoeD7R0hViVfNARHqgG7vxwKiRnn0clDNTYl0m/jPBUWWGRlYwK3iz86aFikek7ylYGljWJrk3l8a6gRIWAV2f/sSVAZFpCsLNGovGxXXhmBT73ICKkTxQBQA7qx/HrSQW16T2j2tKv3TPvyIxDWLoOjkgEYnsjcUzpr8j9CUQObVYkFdhW31sDvZFxZwU95PrJWJyJrJr7KwU1Xc//W4C3INboIjfLBSuUw53KqM8dznmq2hJVEyALn9CoYhlRCZJ96BGQYDDgLnAKw5MzyRTLA9/dGJ5CDMskVo1cVHL6au/R2MJntSK/W2yJK4b3rHAIKLIRLs+6kB9GdrbtL7auo39vTwD6IQM/rDbC5u18JSetsij7OWWF8tCdGF67h5qL9lsorLJMBtWXfREjzrmAAAA=",
-      "facts": [
-        {
-          "fact": "Climate change, habitat destruction, and pollution are top threats to biodiversity, risking the loss of numerous species.",
-          "source": "https://climatechange.gov.ng/climate-change-habitat-destruction-and-pollution-top-threats-to-biodiversity/"
-        },
-        {
-          "fact": "Kenya is highly vulnerable to the impacts of climate change, which manifest as irregular rainfall patterns, prolonged droughts, and increased frequency of extreme weather events."
-        }
-      ]
-    },
-    {
-      "category": "Renewable Energy",
-      "image": "https://cdn.pixabay.com/photo/2017/03/27/13/36/windmill-2178458_960_720.jpg",
-      "facts": [
-        {
-          "fact": "Kenya is internationally recognized for its significant investment in geothermal power generation, with the Olkaria Geothermal Power Station being one of the largest in the world.",
-          "source": "https://learnaboutkenya.com/how-did-kenya-deal-with-environmental-and-conservation-issues/"
-        },
-        {
-          "fact": "Kenya’s windy corridors have made wind power an attractive option for renewable energy, with projects like the Lake Turkana Wind Power contributing significantly to the energy mix."
-        }
-      ]
-    },
-    {
-      "category": "Water Conservation",
-      "image": "https://cdn.pixabay.com/photo/2016/08/10/15/01/drop-of-water-1580279_960_720.jpg",
-      "facts": [
-        {
-          "fact": "Water scarcity is a pressing issue in many parts of Kenya, exacerbated by overexploitation of resources, pollution, and climate change.",
-          "source": "https://aspectsofeverydaylife.wordpress.com/2024/06/22/environmental-issues-in-kenya-challenges-and-sustainable-solutions/"
-        },
-        {
-          "fact": "Improving waste management systems and promoting recycling are essential to tackling plastic pollution, which often contaminates water sources."
-        }
-      ]
-    },
-    {
-      "category": "Biodiversity & Wildlife",
-      "image": "https://cdn.pixabay.com/photo/2016/11/18/17/19/elephant-1834781_960_720.jpg",
-      "facts": [
-        {
-          "fact": "A recent study found that almost a quarter of key freshwater animal species are at risk of extinction due to human activities such as pollution and habitat destruction.",
-          "source": "https://www.ft.com/content/2de7e5de-b677-441f-b91c-97014e940684"
-        },
-        {
-          "fact": "Kenya’s rich biodiversity is under threat from habitat destruction, poaching, and invasive species, affecting iconic wildlife such as elephants, rhinos, and lions."
-        }
-      ]
-    }
-  ]
+  {
+    "category": "Pollution",
+    "image": "pollution.jpg",
+    "facts": [
+      {
+        "fact": "Plastic pollution is significantly altering Earth’s systems, exacerbating climate change, biodiversity loss, ocean acidification, and the usage of freshwater and land.",
+        "source": "https://www.theguardian.com/environment/2024/nov/07/plastic-pollution-is-changing-entire-earth-system-scientists-find"
+      },
+      {
+        "fact": "Approximately 8 million tons of plastic waste enter the oceans annually, posing severe threats to marine life."
+      }
+    ]
+  },
+  {
+    "category": "Recycling",
+    "image": "recycling.jpg",
+    "facts": [
+      {
+        "fact": "Recycling one ton of paper can save 17 mature trees and 7,000 gallons of water."
+      },
+      {
+        "fact": "Recycling aluminum saves 95% of the energy required to produce it from raw materials."
+      }
+    ]
+  },
+  {
+    "category": "Conservation",
+    "image": "conservation.jpg",
+    "facts": [
+      {
+        "fact": "Deforestation accounts for approximately 15% of global greenhouse gas emissions."
+      },
+      {
+        "fact": "Protecting and restoring forests can provide over one-third of the total CO2 reductions needed by 2030 to keep global warming below 2°C."
+      }
+    ]
+  },
+  {
+    "category": "Climate Change",
+    "image": "climate change.jpg",
+    "facts": [
+      {
+        "fact": "Climate change, habitat destruction, and pollution are top threats to biodiversity, risking the loss of numerous species.",
+        "source": "https://climatechange.gov.ng/climate-change-habitat-destruction-and-pollution-top-threats-to-biodiversity/"
+      },
+      {
+        "fact": "Kenya is highly vulnerable to the impacts of climate change, which manifest as irregular rainfall patterns, prolonged droughts, and increased frequency of extreme weather events."
+      }
+    ]
+  },
+  {
+    "category": "Renewable Energy",
+    "image": "renewable energy.jpg",
+    "facts": [
+      {
+        "fact": "Kenya is internationally recognized for its significant investment in geothermal power generation, with the Olkaria Geothermal Power Station being one of the largest in the world.",
+        "source": "https://learnaboutkenya.com/how-did-kenya-deal-with-environmental-and-conservation-issues/"
+      },
+      {
+        "fact": "Kenya’s windy corridors have made wind power an attractive option for renewable energy, with projects like the Lake Turkana Wind Power contributing significantly to the energy mix."
+      }
+    ]
+  },
+  {
+    "category": "Water Conservation",
+    "image": "water conservation.jpg",
+    "facts": [
+      {
+        "fact": "Water scarcity is a pressing issue in many parts of Kenya, exacerbated by overexploitation of resources, pollution, and climate change.",
+        "source": "https://aspectsofeverydaylife.wordpress.com/2024/06/22/environmental-issues-in-kenya-challenges-and-sustainable-solutions/"
+      },
+      {
+        "fact": "Improving waste management systems and promoting recycling are essential to tackling plastic pollution, which often contaminates water sources."
+      }
+    ]
+  },
+  {
+    "category": "Biodiversity & Wildlife",
+    "image": "wildlife.jpg",
+    "facts": [
+      {
+        "fact": "A recent study found that almost a quarter of key freshwater animal species are at risk of extinction due to human activities such as pollution and habitat destruction.",
+        "source": "https://www.ft.com/content/2de7e5de-b677-441f-b91c-97014e940684"
+      },
+      {
+        "fact": "Kenya’s rich biodiversity is under threat from habitat destruction, poaching, and invasive species, affecting iconic wildlife such as elephants, rhinos, and lions."
+      }
+    ]
+  }
+]
 }
