@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
     // Fetch data asynchronously
     async function fetchData() {
         try {
-            const response = await fetch("http://localhost:3000/Information"); // JSON Server serves an array directly
+            // 使用 Render 部署的服务器地址
+            const response = await fetch("https://json-server-1-bbxp.onrender.com/Information");
             const data = await response.json();
             environmentalFacts = data; // No need for `.Information`
             populateCategories();
@@ -57,5 +58,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
+    // Initialize data fetching
     fetchData();
 });
